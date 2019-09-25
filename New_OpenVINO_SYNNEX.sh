@@ -50,6 +50,7 @@ function Inference_Engine_Sample_List()
 	echo "|                                         |"
 	echo "|=========================================|"
 	echo ""
+	echo "  0. benchmark_app."
 	echo "  1. security_barrier_camera_demo."
 	echo "  2. interactive_face_detection_demo."
 	echo "  3. classification_demo."
@@ -66,6 +67,11 @@ function Inference_Engine_Sample_List()
 	local choose
 	read choose
 	case $choose in
+		"0")
+			echo " You choose benchmark_app ->"
+			source ${INTEL_OPENVINO_DIR}/bin/setupvars.sh
+			${SOURCE}benchmark_app.sh
+			;;
 		"1")
 			echo " You choose security_barrier_camera_demo ->"
 			source ${INTEL_OPENVINO_DIR}/bin/setupvars.sh
