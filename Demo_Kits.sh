@@ -10,9 +10,10 @@
 # 2020/02/20	henry1758f 5.0.0-beta02 	Add ban list and special operation to models in model_test_limit_list, the progress information will show while testing all models.
 # 2020/02/20	henry1758f 5.0.0-beta03 	Fix error when choosing specific model in benchmark app
 # 2020/02/24	henry1758f 5.0.0-beta04		Now we can skip some models by setting All_test_index in benchmark app
+# 2020/03/10	henry1758f 5.0.0-beta05		For Yolo Auto Test
 
 
-export VERSION="5.0.0-beta04"
+export VERSION="5.0.0-beta05"
 export VERSION_VINO="v2020.1.023"
 export INTEL_OPENVINO_DIR=/opt/intel/openvino/
 export SAMPLE_LOC="$HOME/inference_engine_samples_build/intel64/Release"
