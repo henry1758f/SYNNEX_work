@@ -28,15 +28,16 @@ This is a tool that can make you run intel openVINO Demos and samples easily. No
 # Getting Start
 This project support Intel OpenVINO Toolkits installed on Ubuntu 18.04 allows you to quick-running OpenVINO's Demos, please follow the steps form the [install guide](https://docs.openvinotoolkit.org/2020.3/_docs_install_guides_installing_openvino_linux.html#install-openvino), install Intel OpenVINO Toolkits (version 2020.3) at default path, 
 After the installation, clone this repository to your home directory by using terminal command.
+    
+    cd ~
+    git clone https://github.com/henry1758f/OpenIVNO_Demo_Kit.git
 
-      cd ~
-      git clone https://github.com/henry1758f/OpenIVNO_Demo_Kit.git
     
     
 Go to the folder and run this tool
 
-      cd ~/OpenVINO_Demo_Kit
-      ./Demo_Kits.sh
+    cd ~/OpenVINO_Demo_Kit
+    ./Demo_Kits.sh
     
     
 The Termainal will show the version of this Demo_Kits and the support version of the OpenVINO.
