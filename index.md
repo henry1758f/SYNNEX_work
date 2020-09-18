@@ -31,10 +31,14 @@ After the installation, clone this repository to your home directory by using te
 
     cd ~
     git clone https://github.com/henry1758f/OpenIVNO_Demo_Kit.git
+    
+    
 Go to the folder and run this tool
 
     cd ~/OpenVINO_Demo_Kit
     ./Demo_Kits.sh
+    
+    
 The Termainal will show the version of this Demo_Kits and the support version of the OpenVINO.
 The Demo_Kits will show you 4 operations:
 ##### 1. [Inference Engine Sample Demo](#inference-engine-sample-demo)
