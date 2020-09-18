@@ -314,42 +314,42 @@ Finally, the top 10 classification result and the inference throughput will prin
   
   For more information, please visit [Smart Classroom Demo](https://docs.openvinotoolkit.org/2020.3/_demos_smart_classroom_demo_README.html) on Intel's Website
   
-## 10 Image Segmentation Demo
+## 10. Image Segmentation Demo
   Demonstrates how to run the Image Segmentation demo application, which does inference using semantic segmentation networks. 
     
   For more information, please visit [Image Segmentation C++ Demo](https://docs.openvinotoolkit.org/2020.3/_demos_segmentation_demo_README.html) on Intel's Website
   
-## 11 Instance Segmentation Demo
+## 11. Instance Segmentation Demo
   This demo shows how to run Instance Segmentation models from Detectron or maskrcnn-benchmark using OpenVINO™. These models should be obtained through [OpenVINO™ Training Extensions (OTE)](https://github.com/opencv/openvino_training_extensions/tree/develop/pytorch_toolkit/instance_segmentation#get-pretrained-models).
     
   For more information, please visit [Instance Segmentation Python* Demo](https://docs.openvinotoolkit.org/2020.3/_demos_python_demos_instance_segmentation_demo_README.html) on Intel's Website
   
-## 12 Gaze Estimation Demo
+## 12. Gaze Estimation Demo
   This demo showcases the work of gaze estimation model. The corresponding pre-trained model gaze-estimation-adas-0002 is delivered with the product.
   
   For more information, please visit [Gaze Estimation Demo](https://docs.openvinotoolkit.org/2020.3/_demos_gaze_estimation_demo_README.html) on Intel's Website
   
-## 13 Text Detection Demo
+## 13. Text Detection Demo
   The demo shows an example of using neural networks to detect and recognize printed text rotated at any angle in various environment.
   
   For more information, please visit [Text Detection C++ Demo](https://docs.openvinotoolkit.org/2020.3/_demos_text_detection_demo_README.html) on Intel's Website
   
-## 14 Action Recognition Demo
+## 14. Action Recognition Demo
   This is the demo application for Action Recognition algorithm, which classifies actions that are being performed on input video.
   
   For more information, please visit [Action Recognition Python* Demo](https://docs.openvinotoolkit.org/2020.3/_demos_python_demos_action_recognition_README.html) on Intel's Website
   
-## 15 Multi Camera Multi Person Tracking Demo
+## 15. Multi Camera Multi Person Tracking Demo
   This demo demonstrates how to run Multi Camera Multi Person demo using OpenVINO.
   
   For more information, please visit [Text Detection C++ Demo](https://docs.openvinotoolkit.org/2020.3/_demos_python_demos_multi_camera_multi_person_tracking_README.html) on Intel's Website
   
-## 16 Face Recognition Demo
+## 16. Face Recognition Demo
   This example demonstrates an approach to create interactive applications for video processing. It shows the basic architecture for building model pipelines supporting model placement on different devices and simultaneous parallel or sequential execution using OpenVINO library in Python. In particular, this demo uses 3 models to build a pipeline able to detect faces on videos, their keypoints (aka "landmarks"), and recognize persons using the provided faces database (the gallery). 
   
   For more information, please visit [Interactive Face Recognition Demo](https://docs.openvinotoolkit.org/2020.3/_demos_python_demos_face_recognition_demo_README.html) on Intel's Website
   
-## 17 Offline Speech Recognition Demo
+## 17. Offline Speech Recognition Demo
   This demo provides a command-line interface for automatic speech recognition using OpenVINO™. Components used by this executable:
   
     > lspeech_s5_ext model - Example pretrained LibriSpeech DNN
@@ -359,7 +359,7 @@ Finally, the top 10 classification result and the inference throughput will prin
   
   For more information, please visit [Offline Speech Recognition Demo](https://docs.openvinotoolkit.org/2020.3/_inference_engine_samples_speech_libs_and_demos_Offline_speech_recognition_demo.html) on Intel's Website
   
-## 18 Live Speech Recognition Demo
+## 18. Live Speech Recognition Demo
   This demo provides a GUI interface for automatic speech recognition using selected OpenVINO™ Inference Engine plugin, OpenVINO™ Feature Extraction Library, and OpenVINO™ Decoder Library.
   
   For more information, please visit [Live Speech Recognition Demo](https://docs.openvinotoolkit.org/2020.3/_inference_engine_samples_speech_libs_and_demos_Live_speech_recognition_demo.html) on Intel's Website
